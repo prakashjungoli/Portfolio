@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    /* background-color: teal; */
+}
+.container{
+    height: 100%;
+    display: grid;
+    /* background-color: #aeaeae; */
+    gap: 0px;
+    /* grid-template-columns: repeat(4, afr); */
+    grid-template-rows: auto 1fr auto;
+}
+.header{
+    grid-row: 1/2;
+    background-color:blue;
+    height: 50px;
+}
+.main{
+    grid-row:2/3;
+
+    background-color: green;
+
+}
+.footer{
+    grid-row: 3/4;
+    background-color:gray;
+    height: 50px;
+}
